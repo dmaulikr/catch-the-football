@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Catch_the_Football" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,147 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="y3e-xx-JWT">
+                                <rect key="frame" x="25" y="130" width="86" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="gm9-JE-19K"/>
+                                    <constraint firstAttribute="height" constant="86" id="iBA-OX-QVq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mx4-Eg-LTV">
+                                <rect key="frame" x="144" y="130" width="87" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="O9l-gU-ftp">
+                                <rect key="frame" x="264" y="130" width="85" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-aO-Wbg">
+                                <rect key="frame" x="25" y="244" width="86" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="n51-sC-ivH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lkx-9B-fp7">
+                                <rect key="frame" x="144" y="244" width="87" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hyi-fp-Ldr">
+                                <rect key="frame" x="264" y="244" width="85" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="dMx-Ah-stl">
+                                <rect key="frame" x="25" y="363" width="86" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="p4d-rq-YmW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="bNP-UW-e6x">
+                                <rect key="frame" x="144" y="363" width="87" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="football-157931_960_720.png" translatesAutoresizingMaskIntoConstraints="NO" id="sjH-lA-ZhX">
+                                <rect key="frame" x="264" y="363" width="85" height="86"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0x-CU-p6c">
+                                <rect key="frame" x="144" y="80" width="102" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="8Rs-aZ-eo3"/>
+                                    <constraint firstAttribute="width" constant="102" id="JEX-rE-iAV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6W-xx-aI7">
+                                <rect key="frame" x="155.5" y="28" width="64" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="Zd8-OL-7s4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lOm-Ov-Qt0">
+                                <rect key="frame" x="69" y="583" width="100" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Lrl-vU-xnq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hf-aC-v0s">
+                                <rect key="frame" x="177" y="573" width="109" height="41"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.2319962357" blue="0.1775929282" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A0x-CU-p6c" firstAttribute="leading" secondItem="Mx4-Eg-LTV" secondAttribute="leading" id="08u-nj-4W4"/>
+                            <constraint firstItem="O9l-gU-ftp" firstAttribute="leading" secondItem="Hyi-fp-Ldr" secondAttribute="leading" id="1ob-Q7-8qG"/>
+                            <constraint firstItem="Hyi-fp-Ldr" firstAttribute="trailing" secondItem="sjH-lA-ZhX" secondAttribute="trailing" id="28T-fa-gvQ"/>
+                            <constraint firstItem="Lkx-9B-fp7" firstAttribute="trailing" secondItem="bNP-UW-e6x" secondAttribute="trailing" id="A3W-8W-OR4"/>
+                            <constraint firstItem="vEv-aO-Wbg" firstAttribute="leading" secondItem="dMx-Ah-stl" secondAttribute="leading" id="CsH-0a-jTS"/>
+                            <constraint firstItem="y3e-xx-JWT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="110" id="E5I-Ym-TAB"/>
+                            <constraint firstItem="Mx4-Eg-LTV" firstAttribute="trailing" secondItem="Lkx-9B-fp7" secondAttribute="trailing" id="HAs-x0-iS7"/>
+                            <constraint firstItem="dMx-Ah-stl" firstAttribute="bottom" secondItem="bNP-UW-e6x" secondAttribute="bottom" id="IVn-bo-C3S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5hf-aC-v0s" secondAttribute="bottom" constant="53" id="MU6-bF-Wlx"/>
+                            <constraint firstItem="Mx4-Eg-LTV" firstAttribute="bottom" secondItem="O9l-gU-ftp" secondAttribute="bottom" id="Nh3-n6-SiQ"/>
+                            <constraint firstItem="y3e-xx-JWT" firstAttribute="leading" secondItem="vEv-aO-Wbg" secondAttribute="leading" id="O87-Pl-EFe"/>
+                            <constraint firstItem="vEv-aO-Wbg" firstAttribute="top" secondItem="y3e-xx-JWT" secondAttribute="bottom" constant="28" id="RGC-hn-8m3"/>
+                            <constraint firstItem="a6W-xx-aI7" firstAttribute="centerX" secondItem="Mx4-Eg-LTV" secondAttribute="centerX" id="SJF-CQ-2MV"/>
+                            <constraint firstItem="Mx4-Eg-LTV" firstAttribute="leading" secondItem="Lkx-9B-fp7" secondAttribute="leading" id="Sdr-ZJ-msJ"/>
+                            <constraint firstItem="y3e-xx-JWT" firstAttribute="trailing" secondItem="vEv-aO-Wbg" secondAttribute="trailing" id="TQI-6t-E8w"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lOm-Ov-Qt0" secondAttribute="bottom" constant="63" id="VOP-gM-Q2U"/>
+                            <constraint firstItem="bNP-UW-e6x" firstAttribute="top" secondItem="sjH-lA-ZhX" secondAttribute="top" id="VuF-B9-dxg"/>
+                            <constraint firstItem="O9l-gU-ftp" firstAttribute="trailing" secondItem="Hyi-fp-Ldr" secondAttribute="trailing" id="WiX-qm-IT3"/>
+                            <constraint firstItem="vEv-aO-Wbg" firstAttribute="top" secondItem="Lkx-9B-fp7" secondAttribute="top" id="YLX-HP-E1u"/>
+                            <constraint firstItem="Mx4-Eg-LTV" firstAttribute="top" secondItem="A0x-CU-p6c" secondAttribute="bottom" constant="21" id="Yqc-CC-wDG"/>
+                            <constraint firstItem="Hyi-fp-Ldr" firstAttribute="leading" secondItem="sjH-lA-ZhX" secondAttribute="leading" id="ZN2-eQ-w1k"/>
+                            <constraint firstItem="vEv-aO-Wbg" firstAttribute="bottom" secondItem="Lkx-9B-fp7" secondAttribute="bottom" id="aaz-F7-gWS"/>
+                            <constraint firstItem="a6W-xx-aI7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="acx-xR-yAl"/>
+                            <constraint firstItem="A0x-CU-p6c" firstAttribute="top" secondItem="a6W-xx-aI7" secondAttribute="bottom" constant="14" id="caJ-pB-nPY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O9l-gU-ftp" secondAttribute="trailing" constant="10" id="cb9-ol-AFr"/>
+                            <constraint firstItem="y3e-xx-JWT" firstAttribute="top" secondItem="Mx4-Eg-LTV" secondAttribute="top" id="dQz-6H-YKy"/>
+                            <constraint firstItem="Mx4-Eg-LTV" firstAttribute="top" secondItem="O9l-gU-ftp" secondAttribute="top" id="gZB-Vb-f7j"/>
+                            <constraint firstItem="y3e-xx-JWT" firstAttribute="bottom" secondItem="Mx4-Eg-LTV" secondAttribute="bottom" id="hfr-g1-pE9"/>
+                            <constraint firstItem="dMx-Ah-stl" firstAttribute="top" secondItem="vEv-aO-Wbg" secondAttribute="bottom" constant="33" id="hrS-hL-JpP"/>
+                            <constraint firstItem="Lkx-9B-fp7" firstAttribute="top" secondItem="Hyi-fp-Ldr" secondAttribute="top" id="ifx-X5-5n4"/>
+                            <constraint firstItem="Lkx-9B-fp7" firstAttribute="leading" secondItem="bNP-UW-e6x" secondAttribute="leading" id="kAR-ip-c0I"/>
+                            <constraint firstItem="lOm-Ov-Qt0" firstAttribute="centerY" secondItem="5hf-aC-v0s" secondAttribute="centerY" id="mka-I3-PA8"/>
+                            <constraint firstItem="a6W-xx-aI7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="nqc-Qh-QDi"/>
+                            <constraint firstItem="bNP-UW-e6x" firstAttribute="bottom" secondItem="sjH-lA-ZhX" secondAttribute="bottom" id="oAV-ds-Slr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5hf-aC-v0s" secondAttribute="trailing" constant="73" id="oCw-s1-hcH"/>
+                            <constraint firstItem="vEv-aO-Wbg" firstAttribute="trailing" secondItem="dMx-Ah-stl" secondAttribute="trailing" id="oMO-nc-AK5"/>
+                            <constraint firstItem="Lkx-9B-fp7" firstAttribute="bottom" secondItem="Hyi-fp-Ldr" secondAttribute="bottom" id="qKH-2E-ba1"/>
+                            <constraint firstItem="dMx-Ah-stl" firstAttribute="top" secondItem="bNP-UW-e6x" secondAttribute="top" id="rZK-ti-Trs"/>
+                            <constraint firstItem="Mx4-Eg-LTV" firstAttribute="leading" secondItem="y3e-xx-JWT" secondAttribute="trailing" constant="33" id="seF-Df-gOJ"/>
+                            <constraint firstItem="5hf-aC-v0s" firstAttribute="leading" secondItem="lOm-Ov-Qt0" secondAttribute="trailing" constant="8" symbolic="YES" id="vBB-iB-1Re"/>
+                            <constraint firstItem="lOm-Ov-Qt0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="w7a-se-Lua"/>
+                            <constraint firstItem="y3e-xx-JWT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="woI-2m-VJI"/>
+                            <constraint firstItem="O9l-gU-ftp" firstAttribute="leading" secondItem="Mx4-Eg-LTV" secondAttribute="trailing" constant="33" id="ztz-bE-Avz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ball1" destination="y3e-xx-JWT" id="b4n-Fg-624"/>
+                        <outlet property="ball2" destination="Mx4-Eg-LTV" id="ikL-1Y-kzF"/>
+                        <outlet property="ball3" destination="O9l-gU-ftp" id="JMb-YJ-rwd"/>
+                        <outlet property="ball4" destination="vEv-aO-Wbg" id="5pn-Ys-3VW"/>
+                        <outlet property="ball5" destination="Lkx-9B-fp7" id="Jca-yc-2cq"/>
+                        <outlet property="ball6" destination="Hyi-fp-Ldr" id="Fve-Zi-xAS"/>
+                        <outlet property="ball7" destination="dMx-Ah-stl" id="LjC-gW-MA2"/>
+                        <outlet property="ball8" destination="bNP-UW-e6x" id="yO4-T6-K1D"/>
+                        <outlet property="ball9" destination="sjH-lA-ZhX" id="bWS-Xx-JBt"/>
+                        <outlet property="highScoreLabel" destination="5hf-aC-v0s" id="VaV-R9-X6I"/>
+                        <outlet property="scoreLabel" destination="A0x-CU-p6c" id="y8i-Ep-ctQ"/>
+                        <outlet property="timeLabel" destination="a6W-xx-aI7" id="GiT-95-gN5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="football-157931_960_720.png" width="733" height="720"/>
+    </resources>
 </document>

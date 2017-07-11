@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A16905B41F14D67100052C73 /* pitch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A16905B31F14D67100052C73 /* pitch.jpeg */; };
 		A17D536E1F141AAE00C5675C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D536D1F141AAE00C5675C /* AppDelegate.swift */; };
 		A17D53701F141AAE00C5675C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17D536F1F141AAE00C5675C /* ViewController.swift */; };
 		A17D53731F141AAE00C5675C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17D53711F141AAE00C5675C /* Main.storyboard */; };
 		A17D53751F141AAE00C5675C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17D53741F141AAE00C5675C /* Assets.xcassets */; };
 		A17D53781F141AAE00C5675C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17D53761F141AAE00C5675C /* LaunchScreen.storyboard */; };
+		A17D53801F141B0800C5675C /* football-157931_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = A17D537F1F141B0800C5675C /* football-157931_960_720.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A16905B31F14D67100052C73 /* pitch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pitch.jpeg; sourceTree = "<group>"; };
 		A17D536A1F141AAE00C5675C /* Catch the Football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch the Football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17D536D1F141AAE00C5675C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17D536F1F141AAE00C5675C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A17D53741F141AAE00C5675C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17D53771F141AAE00C5675C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17D53791F141AAE00C5675C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17D537F1F141B0800C5675C /* football-157931_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football-157931_960_720.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		A17D536C1F141AAE00C5675C /* Catch the Football */ = {
 			isa = PBXGroup;
 			children = (
+				A16905B31F14D67100052C73 /* pitch.jpeg */,
+				A17D537F1F141B0800C5675C /* football-157931_960_720.png */,
 				A17D536D1F141AAE00C5675C /* AppDelegate.swift */,
 				A17D536F1F141AAE00C5675C /* ViewController.swift */,
 				A17D53711F141AAE00C5675C /* Main.storyboard */,
@@ -125,7 +131,9 @@
 			files = (
 				A17D53781F141AAE00C5675C /* LaunchScreen.storyboard in Resources */,
 				A17D53751F141AAE00C5675C /* Assets.xcassets in Resources */,
+				A17D53801F141B0800C5675C /* football-157931_960_720.png in Resources */,
 				A17D53731F141AAE00C5675C /* Main.storyboard in Resources */,
+				A16905B41F14D67100052C73 /* pitch.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				A17D537E1F141AAE00C5675C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
